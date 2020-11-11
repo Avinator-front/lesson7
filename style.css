@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ICONS */
+.facebook {
+  background-image: url(images/icons/facebook.svg);
+}
+.google {
+  background-image: url(images/icons/google.svg);
+}
+.twitter {
+  background-image: url(images/icons/twitter.svg);
+}
+.instagram {
+  background-image: url(images/icons/instagram.svg);
+}
+.vk {
+  background-image: url(images/icons/vk.svg);
+}
+.pinterest {
+  background-image: url(images/icons/pinterest.svg);
+}
+.lamp {
+  background-image: url(./images/icons/lamp.png);
+}
+.keyboard {
+  background-image: url(./images/icons/keyboard.png);
+}
+.lighting {
+  background-image: url(./images/icons/lighting.png);
+}
+.quote__icon_avatar1 {
+  background-image: url(images/avatar/avatar1.png);
+}
+.quote__icon_avatar2 {
+  background-image: url(images/avatar/avatar2.png);
+}
+.quote__icon_avatar3 {
+  background-image: url(images/avatar/avatar3.png);
+}
+li {
+  list-style: none;
+}
+/* выравнивание по центру flex */
+.flex-ja-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-ja-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* отступ 32px снизу от элемента */
+.mb-2rem {
+  margin-bottom: 2rem;
+}
+/* margin top-bottom 32px */
+.mtb-2rem {
+  margin: 2rem 0;
+}
+.mtb-line {
+  margin: 1.375rem auto;
+}
+/* цвет линии белый */
+.line-white {
+  background-color: rgb(255, 255, 255, 1);
+}
+.line-orange {
+  background-color: rgb(255, 139, 56, 1);
+}
+/* Шрифты */
+.ff-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.ff-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+.fz-14 {
+  font-size: 0.875rem;
+}
+.fz-16 {
+  font-size: 1rem;
+}
+.fz-20 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.line-height {
+  line-height: 1.4rem;
+}
+.color-white {
+  color: rgb(255, 255, 255, 1);
+}
+.color-black {
+  color: rgb(51, 51, 51, 1);
+}
+.color-gray {
+  color: rgb(134, 135, 139, 1);
+  font-weight: normal;
+}
+.color-orange {
+  color: rgb(255, 155, 81, 1);
+}
+.bg-white {
+  background-color: rgb(255, 255, 255, 1);
+}
+.bg-gray {
+  background-color: rgb(245, 245, 245, 1);
+}
+.bg-dark {
+  background-color: rgb(51, 51, 51, 1);
+}
+.mrg-btm-1 {
+  margin-bottom: 1px;
+}
+/* Обертка для всех блоков */
+.wrapper {
+  width: 80%;
+  max-width: 1400px;
+  /* выравнивание по горизонтали */
+  margin: 0 auto;
+}
+.title {
+  letter-spacing: 2px;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+/* HEADER */
+.header {
+  height: 64px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+/* делает отступы для контента любого блока */
+.logo {
+  background-image: url(images/logo/Logo_b.png);
+}
+.logo-header {
+  width: 79px;
+  height: 27px;
+  background-size: cover;
+}
+.logo-info {
+  width: 175px;
+  height: 60px;
+}
+.menu {
+  padding: 0;
+  display: flex;
+}
+.menu__item {
+  margin-left: 2rem;
+}
+.menu__item:nth-child(1) {
+  margin-left: 0;
+}
+
+/* MAIN */
+/* SECTION 1 */
+.content {
+  height: calc(100vh - 64px);
+  background-image: url(images/background/city1.jpg);
+  background-size: cover;
+}
+.info {
+  width: 47%;
+}
+.info__line {
+  width: 100px;
+  height: 2px;
+}
+.info__description {
+  margin-bottom: 2.5rem;
+  line-height: 1.625rem;
+}
+.btn {
+  width: 134px;
+  height: 42px;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+/* обрезать текст по длине */
+.form {
+  width: 360px;
+  height: 370px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.form__header {
+  height: 54px;
+  background-color: rgb(223, 223, 223, 1);
+  font-weight: bold;
+  /* white-space: nowrap; */
+}
+.form__main {
+  height: 262px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form__main_input {
+  width: 80%;
+  height: 24px;
+  margin-bottom: 15%;
+  color: rgb(189, 189, 189, 1);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid rgb(189, 189, 189, 1);
+  outline: none;
+}
+.form__main_input:nth-child(3) {
+  margin-bottom: 0;
+}
+.form__footer {
+  background-color: rgb(255, 155, 81, 1);
+  height: 54px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SECTION_Socials */
+.socials {
+  padding-top: 18px;
+  padding-bottom: 17px;
+}
+.subtitle {
+  margin-bottom: 0.375rem;
+}
+.socials__icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.socials__icons_icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 2rem;
+  background-size: cover;
+}
+
+/* Tabs (Section3) */
+.tabs {
+  padding-top: 130px;
+  padding-bottom: 131px;
+  width: 100%;
+}
+.tabs__container {
+  font-weight: bold;
+}
+.tabs__squard {
+  width: 112px;
+  height: 112px;
+  cursor: pointer;
+}
+.tabs__squard:hover {
+  background-color: rgb(250, 143, 33, 1);
+}
+.tabs__squard:nth-child(1) {
+  border-radius: 5px 5px 0 0;
+}
+.tabs__squard:nth-child(3) {
+  border-radius: 0 0 5px 5px;
+}
+.tabs__info {
+  width: 40%;
+}
+.tabs__text {
+  margin: 2.625rem 0;
+}
+.btn-orange {
+  width: 134px;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(250, 143, 33, 1);
+  outline: none;
+  cursor: pointer;
+}
+.tabs__picture {
+  width: 320px;
+  height: 253px;
+}
+.town-picture {
+  background-image: url(./images/pictures/mirrowcity.png);
+  background-size: cover;
+}
+
+/* Section4 */
+.aside {
+  text-align: center;
+  padding-top: 102px;
+}
+.aside__header {
+  margin-bottom: 66px;
+}
+.aside__header_line {
+  width: 102px;
+  height: 2px;
+}
+.aside__card {
+  width: 350px;
+}
+.aside__card-title {
+  margin: 27px auto 16px;
+}
+.aside__card-description {
+  margin-bottom: 111px;
+}
+.m-rl-33 {
+  margin: 0 33px;
+}
+.aside__card-image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 139, 56, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* РАЗДЕЛ 4 */
+.pricing {
+  text-align: center;
+  padding-top: 102px;
+}
+.pricing__header {
+  margin-bottom: 81px;
+}
+.pricing__header_line {
+  width: 64px;
+  height: 2px;
+}
+.rates {
+  padding-bottom: 7rem;
+}
+.rate__list {
+  width: 33%;
+  max-width: 350px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+}
+.rate__item:nth-child(1) {
+  font-family: 'Open Sans', sans-serif;
+}
+.rate__item:nth-child(2) {
+  height: 100px;
+}
+.rate__item:nth-child(n + 4) {
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(134, 135, 139, 1);
+  background-color: white;
+}
+.m-rl-40 {
+  margin: 0 40px;
+}
+.rate__item_gray {
+  background-color: rgb(51, 51, 51, 1);
+  color: white;
+}
+.rate__item_level {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 0;
+}
+.rate__item_f-size {
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 3px;
+}
+.dollar {
+  font-size: 2rem;
+}
+.rate__item_white {
+  color: rgb(255, 255, 255, 0, 7);
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+}
+.item-payment {
+  font-size: 0.8rem;
+  font-style: italic;
+  padding: 0.9rem 0;
+}
+.rate__item_border-bottom {
+  border-bottom: 5px solid rgb(255, 139, 56, 1);
+}
+.rate__item_popular {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(255, 139, 56, 1);
+  padding: 0.6rem 0;
+}
+
+/* SECTION 5 */
+.quote {
+  width: 100%;
+  text-align: center;
+}
+.quote__header {
+  padding-top: 73px;
+}
+.quote__header_line {
+  height: 2px;
+  width: 64px;
+}
+.quote__header_text {
+  padding-bottom: 85px;
+}
+.quote__main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 81px;
+}
+.quote__view {
+  width: 290px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.quote__view_ground {
+  height: 130px;
+  position: relative;
+  margin-bottom: 28px;
+}
+.quote__view_text {
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  top: 25px;
+  left: 12px;
+  right: 30px;
+}
+.quote__view_triangle-down {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid rgb(245, 245, 245, 1);
+  width: 20px;
+  height: 17px;
+  position: absolute;
+  top: 130px;
+  left: 25px;
+}
+.quote__info {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.quote__icon {
+  height: 70px;
+  width: 70px;
+}
+.quote__icon_name {
+  padding-left: 16px;
+  text-align: left;
+}
+
+/* SECTION 6 */
+.holder {
+  text-align: center;
+  width: 100%;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.holder__bg {
+  background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)),
+    url(./images/background/town.jpg);
+
+  background-size: cover;
+}
+.holder__header {
+  display: inline-block;
+  margin: 54px auto;
+}
+.holder__header_line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+}
+.holder__description {
+  margin: 22px 0 38px 0;
+}
+
+/* Section 7 */
+.contacts {
+  width: 100%;
+  padding-top: 73px;
+  padding-bottom: 105px;
+}
+.contacts__header {
+  text-align: center;
+  margin-bottom: 119px;
+}
+.contacts__header_line {
+  height: 2px;
+  width: 64px;
+}
+.contacts__feedback {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contacts__data {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+.contacts__data_text {
+  width: 100%;
+  height: 24px;
+  margin-bottom: 36px;
+  color: rgb(223, 223, 223, 1);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid rgb(223, 223, 223, 1);
+  outline: none;
+}
+.contacts__data_area {
+  width: 510px;
+  height: 150px;
+  color: rgb(223, 223, 223, 1);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid rgb(223, 223, 223, 1);
+  outline: none;
+  resize: none;
+  margin-bottom: 46px;
+}
+.contacts__data_btn {
+  background-color: rgb(255, 155, 81, 1);
+  height: 42px;
+  width: 160px;
+  font-size: 15px;
+  font-weight: 600;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* ПОДВАЛ */
+.footer {
+  width: 100%;
+  height: 124px;
+  background-color: rgb(0, 0, 0, 1);
+}
+.footer__socials {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.footer__socials_icon {
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  margin-right: 22px;
+  margin-top: 28px;
+}
+.footer__socials_icon:last-child {
+  margin-right: 0;
+}
+.footer__text {
+  text-align: center;
+  font-size: 12px;
+}
