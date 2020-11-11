@@ -530,7 +530,7 @@ li {
   outline: none;
 }
 .contacts__data_area {
-  width: 510px;
+  width: 100%;
   height: 150px;
   color: rgb(223, 223, 223, 1);
   border-top: 0;
